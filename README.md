@@ -1,6 +1,10 @@
-# dynamic-css
-<<<<<<< HEAD
-It's a dynamic app
-=======
-It's a dynamic css changer
->>>>>>> d97d45b20c1d3a65d9b00fccba34495664d46901
+# A dynamic user validation infos
+A responsive dynamic user validation
+
+# Technologies
+In this project I used HTML5, CSS3 and JavaScript
+
+## Result
+
+> ### See and interact with the application [here](https://dynamic-css-lusk1nha.vercel.app/) 
+[![vercel.app](./public/assets/github-image.png)](https://dynamic-css-lusk1nha.vercel.app/)
