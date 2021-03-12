@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dynamic CSS</title>
+
+    <link rel="stylesheet" href="./main.css">
+    <link rel="shortcut icon" href="./assets/css-icon.svg">
+
+  </head>
+
+  <body>
+    <main>
+      <section class="testUserContainer">
+        <h3>Usuário - <span>testuser</span></h3>
+        <h3>Senha - <span>mypassword</span></h3>
+      </section>
+
+      <div class="infos">
+        <div class="user-container">
+          <input type="text" class="user-input" placeholder="Usuário">
+          <span class="check user"></span>
+
+        </div>
+
+        <div class="password-container">
+          <input type="text" class="password-input" placeholder="Senha">
+          <span class="check password"></span>
+
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button type="button" class="btn-cancel">Cancelar</button>
+        <button type="button" class="btn-login">Logar</button>
+      </div>
+    </main>
+
+    <div class="modal" hidden>
+      <h2>Você está logado como testuser</h2>
+    </div>
+
+    <script src="./index.js"></script>
+
+  </body>
+</html>
