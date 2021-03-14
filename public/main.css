@@ -220,7 +220,7 @@ main {
   background-color: rgb(230, 50, 50);
 
   width: 100%;
-  min-height: 75vh;
+  min-height: 100%;
 
   position: absolute;
 
@@ -241,6 +241,11 @@ main {
 }
 
 @media (min-width: 550px) {
+  body {
+    min-height: 100vh;
+
+  }
+
   main {
     max-width: 900px;
 
